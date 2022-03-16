@@ -2,10 +2,40 @@ package fp.tipos.futbol;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Objects;
 
 import static fp.tipos.futbol.ResultadoQuiniela.*;
+import static fp.utiles.Checkers.*;
 
-public record Partido(LocalDateTime fecha, String local, String visitante, Integer golesLocal, Integer golesVisitante) {
+public record Partido (LocalDateTime fecha, String local, String visitante, Integer golesLocal, Integer golesVisitante) implements Comparable<Partido>{
+	public Partido(LocalDateTime fecha, 
+			String local, 
+			String visitante, 
+			Integer golesLocal, 
+			Integer golesVisitante) {
+		checkNotNull(local, visitante, golesLocal, golesVisitante);
+		checkGoles(golesLocal);
+		checkGoles( golesVisitante);
+		checkNombre(local);
+		checkNombre(visitante);
+		this.visitante=visitante;
+		this.local=local;
+		this.golesVisitante=golesVisitante;
+		this.golesLocal = golesLocal;
+		this.fecha = fecha;
+	}
+
+	private void checkNombre(String local) {
+		if (local.equals("") ) {
+			throw new IllegalArgumentException("formato de cadena no valido.");
+		}
+	}
+
+	private void checkGoles(Integer golesLocal) {
+		if (golesLocal < 0) {
+			throw new IllegalArgumentException("formato de entero no valido.");
+		}
+	}
 
 	public ResultadoQuiniela resultado() {
 		ResultadoQuiniela result;
@@ -30,13 +60,47 @@ public record Partido(LocalDateTime fecha, String local, String visitante, Integ
 		} else {
 			valor = "2";
 		}
-		DateTimeFormatter formater = 
-				DateTimeFormatter.ofPattern("dd-MM-yy");
+		DateTimeFormatter formater = DateTimeFormatter.ofPattern("dd-MM-yy");
 		String formatoFecha = fecha().format(formater);
 		return formatoFecha + "-> " + local() + " vs " + visitante() + ": " + golesLocal() + "-" + golesVisitante()
 				+ " (" + valor + ")";
 
 	}
+
+	
+	public int compareTo(Partido o) {
+		int res;
+		res=fecha.compareTo(o.fecha);
+		if(res==0) {
+			res=local.compareTo(o.local);
+		}
+		if(res==0) {
+			res=visitante.compareTo(o.visitante);
+		}
+		return res;
+	}
+
+	
+	public int hashCode() {
+		return Objects.hash(fecha, local, visitante);
+	}
+
+	
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Partido other = (Partido) obj;
+		return Objects.equals(fecha, other.fecha) && Objects.equals(local, other.local)
+				&& Objects.equals(visitante, other.visitante);
+	}
+
+	
+
+	
 	/*
 	 * 
 	 * • cadena con formato, de tipo String. Devuelve una cadena con la fecha del
@@ -47,4 +111,5 @@ public record Partido(LocalDateTime fecha, String local, String visitante, Integ
 	 * se debe representar con los caracteres 1, X ó 2.
 	 * 
 	 */
+
 }
