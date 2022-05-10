@@ -52,7 +52,7 @@ public class TrayectoTrenImpl implements Comparable<TrayectoTren>, TrayectoTren{
 		
 		Checkers.checkCondicion(!RestriccionesTrenes
 				.esCodigoValido(codigoTren));
-		Checkers.checkNotNull(horaSalida, horaLlegada);
+		Checkers.checkNoNull(horaSalida, horaLlegada);
 		Checkers.checkCondicion(!horaSalida.isBefore(horaLlegada));
 		
 		this.codigoTren = codigoTren;

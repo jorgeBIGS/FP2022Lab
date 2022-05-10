@@ -60,7 +60,7 @@ public class Cancion implements Comparable<Cancion> {
 	}
 
 	public Cancion(String titulo, String artista, Duration duracion, LocalDate fechaLanzamiento, Genero genero) {
-		checkNotNull(titulo, artista, duracion);
+		checkNoNull(titulo, artista, duracion);
 		checkDuracion(duracion);
 		
 		this.titulo = titulo;
@@ -82,7 +82,7 @@ public class Cancion implements Comparable<Cancion> {
 	}
 
 	public void setTitulo(String titulo) {
-		checkNotNull(titulo);
+		checkNoNull(titulo);
 		this.titulo = titulo;
 	}
 
@@ -91,7 +91,7 @@ public class Cancion implements Comparable<Cancion> {
 	}
 
 	public void setArtista(String artista) {
-		checkNotNull(artista);
+		checkNoNull(artista);
 		this.artista = artista;
 	}
 
@@ -100,7 +100,7 @@ public class Cancion implements Comparable<Cancion> {
 	}
 
 	public void setDuracion(Duration duracion) {
-		checkNotNull(duracion);
+		checkNoNull(duracion);
 		checkDuracion(duracion);
 		this.duracion = duracion;
 	}

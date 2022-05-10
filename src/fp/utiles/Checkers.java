@@ -1,22 +1,31 @@
 package fp.utiles;
 
 public class Checkers {
+	
+	public static void checkCondicion(Boolean condicion) {
+		check("No me da la gana de poner ningun texto", condicion);
+	}
+	 
+	public static void check(String textoRestriccion, Boolean condicion) {
+		if (!condicion) {
+			throw new IllegalArgumentException(
+					Thread.currentThread().getStackTrace()[2].getClassName() +
+					"." + 
+					Thread.currentThread().getStackTrace()[2].getMethodName() +
+					": " + 
+					textoRestriccion);
+		}
+	}
 
-	private static final String MENSAJE_NULO = "Parámetro null no soportado";
-
-	public static void checkNotNull(Object... array) {
-		for (Object o : array) {
-			if (o == null) {
-				throw new IllegalArgumentException(MENSAJE_NULO);
+	public static void checkNoNull(Object... parametros) {
+		for (int i = 0; i < parametros.length; i++) {
+			if (parametros[i] == null) {
+				throw new IllegalArgumentException(
+						Thread.currentThread().getStackTrace()[2].getClassName() +
+						"." + 
+						Thread.currentThread().getStackTrace()[2].getMethodName() +
+						": el parámetro " + (i + 1) + " es nulo");
 			}
 		}
 	}
-
-	public static void checkCondicion(Boolean condicion) {
-		if(condicion) {
-			throw new IllegalArgumentException();
-		}
-		
-	}
-
 }

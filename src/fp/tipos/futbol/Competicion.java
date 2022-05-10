@@ -12,6 +12,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
+import java.util.SortedMap;
+import java.util.TreeMap;
 
 public class Competicion {
 	private String nombre;
@@ -160,38 +162,141 @@ public class Competicion {
 		}
 		return result;
 	}
-	
-	
 
 //	• : crea un Map que relaciona cada resultado 
 //	con el número de partidos en los que se ha dado ese resultado.
-	
-	public Map<ResultadoQuiniela, Integer> contarNumPartidosPorResultado(){
+
+	public Map<ResultadoQuiniela, Integer> contarNumPartidosPorResultado() {
 		Map<ResultadoQuiniela, Integer> result = new HashMap<>();
-		
-		for(Partido p: partidos) {
+
+		for (Partido p : partidos) {
 			ResultadoQuiniela clave = p.resultado();
-			if(!result.containsKey(clave))
-			{
+			if (!result.containsKey(clave)) {
 				result.put(clave, 1);
-			}else {
+			} else {
 				Integer valor = result.get(clave);
 				valor++;
 				result.put(clave, valor);
+			}
+		}
+
+		return result;
+	}
+
+//	• Map <String, Integer> getClasificacionFinal(): crea un Map que relaciona cada nombre de un equipo con 
+//	el total de puntos obtenidos en la competición por ese equipo.
+	public Map<String, Integer> getClasificacionFinal() {
+		Map<String, Integer> result = new HashMap<>();
+
+		for (Partido p : getPartidos()) {
+			String keyLocal = p.local();
+			String keyVisitante = p.visitante();
+			
+			ResultadoQuiniela quiniela = p.resultado();
+			Integer valorLocal = 0;
+			Integer valorVisitante = 0;
+			if (quiniela.equals(ResultadoQuiniela.UNO)) {
+				valorLocal = 3;
+			} else if (quiniela.equals(ResultadoQuiniela.EQUIS)) {
+				valorLocal = 1;
+				valorVisitante = 1;
+			}else {
+				valorVisitante = 3;
+			}
+
+			if (result.containsKey(keyLocal)) {
+				result.put(keyLocal, result.get(keyLocal) + valorLocal);
+			} else {
+				result.put(keyLocal, valorLocal);
+			}
+			
+			if (result.containsKey(keyVisitante)) {
+				result.put(keyVisitante, result.get(keyVisitante) + valorVisitante);
+			} else {
+				result.put(keyVisitante, valorVisitante);
+			}
+		}
+		
+
+		return result;
+	}
+	
+	public Map<String, Integer> contarPartidosGanadosPorEquipo(){
+		Map<String, Integer> result = new HashMap<>();
+		
+		for(Partido p: getPartidos()) {
+			String keyLocal = p.local();
+			String keyVisitante = p.visitante();
+			
+			Integer contadorLocal = 0;
+			Integer contadorVisitante = 0;
+			
+			if(p.resultado().equals(ResultadoQuiniela.UNO)) {
+				contadorLocal = 1;
+			}else if(p.resultado().equals(ResultadoQuiniela.DOS)){
+				contadorVisitante = 1;
+			}
+			
+			if (result.containsKey(keyLocal)) {
+				result.put(keyLocal, result.get(keyLocal) + contadorLocal);
+			} else {
+				result.put(keyLocal, contadorLocal);
+			}
+			
+			if (result.containsKey(keyVisitante)) {
+				result.put(keyVisitante, result.get(keyVisitante) + contadorVisitante);
+			} else {
+				result.put(keyVisitante, contadorVisitante);
 			}
 		}
 		
 		return result;
 	}
 	
-//	• Map <String, Integer> getClasificacionFinal(): crea un Map que relaciona cada nombre de un equipo con 
-//	el total de puntos obtenidos en la competición por ese equipo.
-//	• Map<String, Integer> contarPartidosGanadosPorEquipo(): crea un Map que relaciona cada equipo con el 
-//	número de partidos ganados por ese equipo.
-//	• SortedMap<LocalDate, List<PartidoFutbol>> getPartidosPorFecha (): crea un SortedMap que relaciona 
-//	cada fecha con los partidos que se disputaron en esa fecha.
-//	• SortedMap<Integer, Set<String>> equiposPorNumeroPartidosGanados(): crea un SortedMap que 
-//	relaciona cada número con el conjunto de los equipos que han ganado ese número de partidos.
-//	• String getCampeon(): obtiene el nombre del equipo ganador de la competición
+	public SortedMap<LocalDate, List<Partido>> getPartidosPorFecha (){
+		SortedMap<LocalDate, List<Partido>> result = new TreeMap<>();
+		for(Partido p:getPartidos()) {
+			LocalDate key = p.fecha().toLocalDate();
+			if(result.containsKey(key)) {
+				result.get(key).add(p);
+			}else {
+				List<Partido> aux = new ArrayList<>();
+				aux.add(p);
+				result.put(key, aux);
+			}
+			
+		}
+		return result;
+	}
 
+
+	public SortedMap<Integer, Set<String>> equiposPorNumeroPartidosGanados(){
+		Map<String, Integer> aux = contarPartidosGanadosPorEquipo();
+		
+		SortedMap<Integer, Set<String>> result = new TreeMap<>();
+		
+		for(String equipo: aux.keySet()) {
+			Integer key = aux.get(equipo);
+			
+			if(result.containsKey(key)) {
+				result.get(key).add(equipo);
+			}else {
+				Set<String> setAux = new HashSet<>();
+				setAux.add(equipo);
+				result.put(key, setAux);
+			}
+		}
+		
+		
+		return result;
+		
+		
+	}
+
+
+	public String getCampeon() {
+		Map<String, Integer> clasificacionFinal = getClasificacionFinal();
+		Comparator<String> cmp = Comparator.comparing(nombre->clasificacionFinal.get(nombre));
+		return Collections.max(clasificacionFinal.keySet(), cmp);
+	}
 }
