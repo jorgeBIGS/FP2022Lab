@@ -10,7 +10,7 @@ import static fp.utiles.Checkers.*;
 public record Partido(LocalDateTime fecha, String local, String visitante, Integer golesLocal, Integer golesVisitante)
 		implements Comparable<Partido> {
 	public Partido(LocalDateTime fecha, String local, String visitante, Integer golesLocal, Integer golesVisitante) {
-		checkNotNull(local, visitante, golesLocal, golesVisitante);
+		checkNoNull(local, visitante, golesLocal, golesVisitante);
 		checkGoles(golesLocal);
 		checkGoles(golesVisitante);
 		checkNombre(local);

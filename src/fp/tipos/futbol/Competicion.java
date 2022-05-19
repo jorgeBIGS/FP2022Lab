@@ -1,7 +1,5 @@
 package fp.tipos.futbol;
-
-import static fp.utiles.Checkers.checkNotNull;
-
+import static fp.utiles.Checkers.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -33,7 +31,7 @@ public class Competicion {
 	}
 
 	public Competicion(String nombre, Integer anyo) {
-		checkNotNull(nombre, anyo);
+		checkNoNull(nombre, anyo);
 		this.nombre = nombre;
 		this.anyo = anyo;
 		this.partidos = new ArrayList<>();

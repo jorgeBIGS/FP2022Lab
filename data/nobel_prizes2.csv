@@ -1,0 +1,64 @@
+year,category,firstname,surname,gender,birthyear
+1901,physics,Wilhelm Conrad,Röntgen,male,1845
+1902,physics,Hendrik Antoon,Lorentz,male,1853
+1902,physics,Pieter,Zeeman,male,1865
+1903,physics,Antoine Henri,Becquerel,male,1852
+1903,physics,Pierre,Curie,male,1859
+1903,physics,Marie,Curie née Sklodowska,female,1867
+1911,chemistry,Marie,Curie née Sklodowska,female,1867
+1904,physics,Lord Rayleigh,(John William Strutt),male,1842
+1905,physics,Philipp Eduard Anton,von Lenard,male,1862
+1906,physics,Joseph John,Thomson,male,1856
+1907,physics,Albert Abraham,Michelson,male,1852
+1908,physics,Gabriel,Lippmann,male,1845
+1909,physics,Guglielmo,Marconi,male,1874
+1909,physics,Karl Ferdinand,Braun,male,1850
+1910,physics,Johannes Diderik,van der Waals,male,1837
+1911,physics,Wilhelm,Wien,male,1864
+1912,physics,Nils Gustaf,Dalén,male,1869
+1913,physics,Heike,Kamerlingh Onnes,male,1853
+1914,physics,Max,von Laue,male,1879
+1915,physics,Sir William Henry,Bragg,male,1862
+1915,physics,William Lawrence,Bragg,male,1890
+1917,physics,Charles Glover,Barkla,male,1877
+1918,physics,Max Karl Ernst Ludwig,Planck,male,1858
+1919,physics,Johannes,Stark,male,1874
+1920,physics,Charles Edouard,Guillaume,male,1861
+1921,physics,Albert,Einstein,male,1879
+1922,physics,Niels Henrik David,Bohr,male,1885
+1923,physics,Robert Andrews,Millikan,male,1868
+1924,physics,Karl Manne Georg,Siegbahn,male,1886
+1925,physics,James,Franck,male,1882
+1925,physics,Gustav Ludwig,Hertz,male,1887
+1926,physics,Jean Baptiste,Perrin,male,1870
+1927,physics,Arthur Holly,Compton,male,1892
+1927,physics,Charles Thomson Rees,Wilson,male,1869
+1928,physics,Owen Willans,Richardson,male,1879
+1929,physics,Prince Louis-Victor Pierre Raymond,de Broglie,male,1892
+1930,physics,Sir Chandrasekhara Venkata,Raman,male,1888
+1932,physics,Werner Karl,Heisenberg,male,1901
+1933,physics,Erwin,Schrödinger,male,1887
+1933,physics,Paul Adrien Maurice,Dirac,male,1902
+1935,physics,James,Chadwick,male,1891
+1936,physics,Victor Franz,Hess,male,1883
+1936,physics,Carl David,Anderson,male,1905
+1937,physics,Clinton Joseph,Davisson,male,1881
+1937,physics,George Paget,Thomson,male,1892
+1938,physics,Enrico,Fermi,male,1901
+1939,physics,Ernest Orlando,Lawrence,male,1901
+1943,physics,Otto,Stern,male,1888
+1944,physics,Isidor Isaac,Rabi,male,1898
+1945,physics,Wolfgang,Pauli,male,1900
+1946,physics,Percy Williams,Bridgman,male,1882
+1947,physics,Sir Edward Victor,Appleton,male,1892
+1948,physics,Patrick Maynard Stuart,Blackett,male,1897
+1949,physics,Hideki,Yukawa,male,1907
+1950,physics,Cecil Frank,Powell,male,1903
+1951,physics,Sir John Douglas,Cockcroft,male,1897
+1951,physics,Ernest Thomas Sinton,Walton,male,1903
+1952,physics,Felix,Bloch,male,1905
+1952,physics,Edward Mills,Purcell,male,1912
+1953,physics,Frits,Zernike,male,1888
+1954,physics,Max,Born,male,1882
+1954,physics,Walther,Bothe,male,1891
+1955,physics,Willis Eugene,Lamb,male,1913

@@ -1,0 +1,895 @@
+year,category,firstname,surname,gender,birthyear
+1901,physics,Wilhelm Conrad,Röntgen,male,1845
+1902,physics,Hendrik Antoon,Lorentz,male,1853
+1902,physics,Pieter,Zeeman,male,1865
+1903,physics,Antoine Henri,Becquerel,male,1852
+1903,physics,Pierre,Curie,male,1859
+1903,physics,Marie,Curie née Sklodowska,female,1867
+1911,chemistry,Marie,Curie née Sklodowska,female,1867
+1904,physics,Lord Rayleigh,(John William Strutt),male,1842
+1905,physics,Philipp Eduard Anton,von Lenard,male,1862
+1906,physics,Joseph John,Thomson,male,1856
+1907,physics,Albert Abraham,Michelson,male,1852
+1908,physics,Gabriel,Lippmann,male,1845
+1909,physics,Guglielmo,Marconi,male,1874
+1909,physics,Karl Ferdinand,Braun,male,1850
+1910,physics,Johannes Diderik,van der Waals,male,1837
+1911,physics,Wilhelm,Wien,male,1864
+1912,physics,Nils Gustaf,Dalén,male,1869
+1913,physics,Heike,Kamerlingh Onnes,male,1853
+1914,physics,Max,von Laue,male,1879
+1915,physics,Sir William Henry,Bragg,male,1862
+1915,physics,William Lawrence,Bragg,male,1890
+1917,physics,Charles Glover,Barkla,male,1877
+1918,physics,Max Karl Ernst Ludwig,Planck,male,1858
+1919,physics,Johannes,Stark,male,1874
+1920,physics,Charles Edouard,Guillaume,male,1861
+1921,physics,Albert,Einstein,male,1879
+1922,physics,Niels Henrik David,Bohr,male,1885
+1923,physics,Robert Andrews,Millikan,male,1868
+1924,physics,Karl Manne Georg,Siegbahn,male,1886
+1925,physics,James,Franck,male,1882
+1925,physics,Gustav Ludwig,Hertz,male,1887
+1926,physics,Jean Baptiste,Perrin,male,1870
+1927,physics,Arthur Holly,Compton,male,1892
+1927,physics,Charles Thomson Rees,Wilson,male,1869
+1928,physics,Owen Willans,Richardson,male,1879
+1929,physics,Prince Louis-Victor Pierre Raymond,de Broglie,male,1892
+1930,physics,Sir Chandrasekhara Venkata,Raman,male,1888
+1932,physics,Werner Karl,Heisenberg,male,1901
+1933,physics,Erwin,Schrödinger,male,1887
+1933,physics,Paul Adrien Maurice,Dirac,male,1902
+1935,physics,James,Chadwick,male,1891
+1936,physics,Victor Franz,Hess,male,1883
+1936,physics,Carl David,Anderson,male,1905
+1937,physics,Clinton Joseph,Davisson,male,1881
+1937,physics,George Paget,Thomson,male,1892
+1938,physics,Enrico,Fermi,male,1901
+1939,physics,Ernest Orlando,Lawrence,male,1901
+1943,physics,Otto,Stern,male,1888
+1944,physics,Isidor Isaac,Rabi,male,1898
+1945,physics,Wolfgang,Pauli,male,1900
+1946,physics,Percy Williams,Bridgman,male,1882
+1947,physics,Sir Edward Victor,Appleton,male,1892
+1948,physics,Patrick Maynard Stuart,Blackett,male,1897
+1949,physics,Hideki,Yukawa,male,1907
+1950,physics,Cecil Frank,Powell,male,1903
+1951,physics,Sir John Douglas,Cockcroft,male,1897
+1951,physics,Ernest Thomas Sinton,Walton,male,1903
+1952,physics,Felix,Bloch,male,1905
+1952,physics,Edward Mills,Purcell,male,1912
+1953,physics,Frits,Zernike,male,1888
+1954,physics,Max,Born,male,1882
+1954,physics,Walther,Bothe,male,1891
+1955,physics,Willis Eugene,Lamb,male,1913
+1955,physics,Polykarp,Kusch,male,1911
+1956,physics,William Bradford,Shockley,male,1910
+1956,physics,John,Bardeen,male,1908
+1972,physics,John,Bardeen,male,1908
+1956,physics,Walter Houser,Brattain,male,1902
+1957,physics,Chen Ning,Yang,male,1922
+1957,physics,Tsung-Dao (T.D.),Lee,male,1926
+1958,physics,Pavel Alekseyevich,Cherenkov,male,1904
+1958,physics,Igor Yevgenyevich,Tamm,male,1895
+1959,physics,Emilio Gino,Segrè,male,1905
+1959,physics,Owen,Chamberlain,male,1920
+1960,physics,Donald Arthur,Glaser,male,1926
+1961,physics,Robert,Hofstadter,male,1915
+1961,physics,Rudolf Ludwig,Mössbauer,male,1929
+1962,physics,Lev Davidovich,Landau,male,1908
+1963,physics,Eugene Paul,Wigner,male,1902
+1963,physics,Maria,Goeppert Mayer,female,1906
+1963,physics,J. Hans D.,Jensen,male,1907
+1964,physics,Charles Hard,Townes,male,1915
+1964,physics,Nicolay Gennadiyevich,Basov,male,1922
+1964,physics,Aleksandr Mikhailovich,Prokhorov,male,1916
+1965,physics,Sin-Itiro,Tomonaga,male,1906
+1965,physics,Julian,Schwinger,male,1918
+1965,physics,Richard P.,Feynman,male,1918
+1966,physics,Alfred,Kastler,male,1902
+1967,physics,Hans Albrecht,Bethe,male,1906
+1968,physics,Luis Walter,Alvarez,male,1911
+1969,physics,Murray,Gell-Mann,male,1929
+1970,physics,Hannes Olof Gösta,Alfvén,male,1908
+1970,physics,Louis Eugène Félix,Néel,male,1904
+1971,physics,Dennis,Gabor,male,1900
+1972,physics,Leon Neil,Cooper,male,1930
+1972,physics,John Robert,Schrieffer,male,1931
+1973,physics,Leo,Esaki,male,1925
+1973,physics,Ivar,Giaever,male,1929
+1973,physics,Brian David,Josephson,male,1940
+1974,physics,Sir Martin,Ryle,male,1918
+1974,physics,Antony,Hewish,male,1924
+1975,physics,Aage Niels,Bohr,male,1922
+1975,physics,Ben Roy,Mottelson,male,1926
+1975,physics,Leo James,Rainwater,male,1917
+1976,physics,Burton,Richter,male,1931
+1976,physics,Samuel Chao Chung,Ting,male,1936
+1977,physics,Philip Warren,Anderson,male,1923
+1977,physics,Sir Nevill Francis,Mott,male,1905
+1977,physics,John Hasbrouck,van Vleck,male,1899
+1978,physics,Pyotr Leonidovich,Kapitsa,male,1894
+1978,physics,Arno Allan,Penzias,male,1933
+1978,physics,Robert Woodrow,Wilson,male,1936
+1979,physics,Sheldon Lee,Glashow,male,1932
+1979,physics,Abdus,Salam,male,1926
+1979,physics,Steven,Weinberg,male,1933
+1980,physics,James Watson,Cronin,male,1931
+1980,physics,Val Logsdon,Fitch,male,1923
+1981,physics,Nicolaas,Bloembergen,male,1920
+1981,physics,Arthur Leonard,Schawlow,male,1921
+1981,physics,Kai M.,Siegbahn,male,1918
+1982,physics,Kenneth G.,Wilson,male,1936
+1983,physics,Subramanyan,Chandrasekhar,male,1910
+1983,physics,William Alfred,Fowler,male,1911
+1984,physics,Carlo,Rubbia,male,1934
+1984,physics,Simon,van der Meer,male,1925
+1985,physics,Klaus,von Klitzing,male,1943
+1986,physics,Ernst,Ruska,male,1906
+1986,physics,Gerd,Binnig,male,1947
+1986,physics,Heinrich,Rohrer,male,1933
+1987,physics,J. Georg,Bednorz,male,1950
+1987,physics,K. Alexander,Müller,male,1927
+1988,physics,Leon M.,Lederman,male,1922
+1988,physics,Melvin,Schwartz,male,1932
+1988,physics,Jack,Steinberger,male,1921
+1989,physics,Norman F.,Ramsey,male,1915
+1989,physics,Hans G.,Dehmelt,male,1922
+1989,physics,Wolfgang,Paul,male,1913
+1990,physics,Jerome I.,Friedman,male,1930
+1990,physics,Henry W.,Kendall,male,1926
+1990,physics,Richard E.,Taylor,male,1929
+1991,physics,Pierre-Gilles,de Gennes,male,1932
+1992,physics,Georges,Charpak,male,1924
+1993,physics,Russell A.,Hulse,male,1950
+1993,physics,Joseph H.,Taylor Jr.,male,1941
+1994,physics,Bertram N.,Brockhouse,male,1918
+1994,physics,Clifford G.,Shull,male,1915
+1995,physics,Martin L.,Perl,male,1927
+1995,physics,Frederick,Reines,male,1918
+1996,physics,David M.,Lee,male,1931
+1996,physics,Douglas D.,Osheroff,male,1945
+1996,physics,Robert C.,Richardson,male,1937
+1997,physics,Steven,Chu,male,1948
+1997,physics,Claude,Cohen-Tannoudji,male,1933
+1997,physics,William D.,Phillips,male,1948
+1998,physics,Robert B.,Laughlin,male,1950
+1998,physics,Horst L.,Störmer,male,1949
+1998,physics,Daniel C.,Tsui,male,1939
+1999,physics,Gerardus,'t Hooft,male,1946
+1999,physics,Martinus J.G.,Veltman,male,1931
+1901,chemistry,Jacobus Henricus,van 't Hoff,male,1852
+1902,chemistry,Hermann Emil,Fischer,male,1852
+1903,chemistry,Svante August,Arrhenius,male,1859
+1904,chemistry,Sir William,Ramsay,male,1852
+1905,chemistry,Johann Friedrich Wilhelm Adolf,von Baeyer,male,1835
+1906,chemistry,Henri,Moissan,male,1852
+1907,chemistry,Eduard,Buchner,male,1860
+1908,chemistry,Ernest,Rutherford,male,1871
+1909,chemistry,Wilhelm,Ostwald,male,1853
+1910,chemistry,Otto,Wallach,male,1847
+1912,chemistry,Victor,Grignard,male,1871
+1912,chemistry,Paul,Sabatier,male,1854
+1913,chemistry,Alfred,Werner,male,1866
+1914,chemistry,Theodore William,Richards,male,1868
+1915,chemistry,Richard Martin,Willstätter,male,1872
+1918,chemistry,Fritz,Haber,male,1868
+1920,chemistry,Walther Hermann,Nernst,male,1864
+1921,chemistry,Frederick,Soddy,male,1877
+1922,chemistry,Francis William,Aston,male,1877
+1923,chemistry,Fritz,Pregl,male,1869
+1925,chemistry,Richard Adolf,Zsigmondy,male,1865
+1926,chemistry,The (Theodor),Svedberg,male,1884
+1927,chemistry,Heinrich Otto,Wieland,male,1877
+1928,chemistry,Adolf Otto Reinhold,Windaus,male,1876
+1929,chemistry,Arthur,Harden,male,1865
+1929,chemistry,Hans Karl August Simon,von Euler-Chelpin,male,1873
+1930,chemistry,Hans,Fischer,male,1881
+1931,chemistry,Carl,Bosch,male,1874
+1931,chemistry,Friedrich,Bergius,male,1884
+1932,chemistry,Irving,Langmuir,male,1881
+1934,chemistry,Harold Clayton,Urey,male,1893
+1935,chemistry,Frédéric,Joliot,male,1900
+1935,chemistry,Irène,Joliot-Curie,female,1897
+1936,chemistry,Petrus (Peter) Josephus Wilhelmus,Debye,male,1884
+1937,chemistry,Walter Norman,Haworth,male,1883
+1937,chemistry,Paul,Karrer,male,1889
+1938,chemistry,Richard,Kuhn,male,1900
+1939,chemistry,Adolf Friedrich Johann,Butenandt,male,1903
+1939,chemistry,Leopold,Ruzicka,male,1887
+1943,chemistry,George,de Hevesy,male,1885
+1944,chemistry,Otto,Hahn,male,1879
+1945,chemistry,Artturi Ilmari,Virtanen,male,1895
+1946,chemistry,James Batcheller,Sumner,male,1887
+1946,chemistry,John Howard,Northrop,male,1891
+1946,chemistry,Wendell Meredith,Stanley,male,1904
+1947,chemistry,Sir Robert,Robinson,male,1886
+1948,chemistry,Arne Wilhelm Kaurin,Tiselius,male,1902
+1949,chemistry,William Francis,Giauque,male,1895
+1950,chemistry,Otto Paul Hermann,Diels,male,1876
+1950,chemistry,Kurt,Alder,male,1902
+1951,chemistry,Edwin Mattison,McMillan,male,1907
+1951,chemistry,Glenn Theodore,Seaborg,male,1912
+1952,chemistry,Archer John Porter,Martin,male,1910
+1952,chemistry,Richard Laurence Millington,Synge,male,1914
+1953,chemistry,Hermann,Staudinger,male,1881
+1954,chemistry,Linus Carl,Pauling,male,1901
+1962,peace,Linus Carl,Pauling,male,1901
+1955,chemistry,Vincent,du Vigneaud,male,1901
+1956,chemistry,Sir Cyril Norman,Hinshelwood,male,1897
+1956,chemistry,Nikolay Nikolaevich,Semenov,male,1896
+1957,chemistry,Lord (Alexander R.),Todd,male,1907
+1958,chemistry,Frederick,Sanger,male,1918
+1980,chemistry,Frederick,Sanger,male,1918
+1959,chemistry,Jaroslav,Heyrovsky,male,1890
+1960,chemistry,Willard Frank,Libby,male,1908
+1961,chemistry,Melvin,Calvin,male,1911
+1962,chemistry,Max Ferdinand,Perutz,male,1914
+1962,chemistry,John Cowdery,Kendrew,male,1917
+1963,chemistry,Karl,Ziegler,male,1898
+1963,chemistry,Giulio,Natta,male,1903
+1964,chemistry,Dorothy Crowfoot,Hodgkin,female,1910
+1965,chemistry,Robert Burns,Woodward,male,1917
+1966,chemistry,Robert S.,Mulliken,male,1896
+1967,chemistry,Manfred,Eigen,male,1927
+1967,chemistry,Ronald George Wreyford,Norrish,male,1897
+1967,chemistry,George,Porter,male,1920
+1968,chemistry,Lars,Onsager,male,1903
+1969,chemistry,Derek H. R.,Barton,male,1918
+1969,chemistry,Odd,Hassel,male,1897
+1970,chemistry,Luis F.,Leloir,male,1906
+1971,chemistry,Gerhard,Herzberg,male,1904
+1972,chemistry,Christian B.,Anfinsen,male,1916
+1972,chemistry,Stanford,Moore,male,1913
+1972,chemistry,William H.,Stein,male,1911
+1973,chemistry,Ernst Otto,Fischer,male,1918
+1973,chemistry,Geoffrey,Wilkinson,male,1921
+1974,chemistry,Paul J.,Flory,male,1910
+1975,chemistry,John Warcup,Cornforth,male,1917
+1975,chemistry,Vladimir,Prelog,male,1906
+1976,chemistry,William N.,Lipscomb,male,1919
+1977,chemistry,Ilya,Prigogine,male,1917
+1978,chemistry,Peter D.,Mitchell,male,1920
+1979,chemistry,Herbert C.,Brown,male,1912
+1979,chemistry,Georg,Wittig,male,1897
+1980,chemistry,Paul,Berg,male,1926
+1980,chemistry,Walter,Gilbert,male,1932
+1981,chemistry,Kenichi,Fukui,male,1918
+1981,chemistry,Roald,Hoffmann,male,1937
+1982,chemistry,Aaron,Klug,male,1926
+1983,chemistry,Henry,Taube,male,1915
+1984,chemistry,Robert Bruce,Merrifield,male,1921
+1985,chemistry,Herbert A.,Hauptman,male,1917
+1985,chemistry,Jerome,Karle,male,1918
+1986,chemistry,Dudley R.,Herschbach,male,1932
+1986,chemistry,Yuan T.,Lee,male,1936
+1986,chemistry,John C.,Polanyi,male,1929
+1987,chemistry,Donald J.,Cram,male,1919
+1987,chemistry,Jean-Marie,Lehn,male,1939
+1987,chemistry,Charles J.,Pedersen,male,1904
+1988,chemistry,Johann,Deisenhofer,male,1943
+1988,chemistry,Robert,Huber,male,1937
+1988,chemistry,Hartmut,Michel,male,1948
+1989,chemistry,Sidney,Altman,male,1939
+1989,chemistry,Thomas R.,Cech,male,1947
+1990,chemistry,Elias James,Corey,male,1928
+1991,chemistry,Richard R.,Ernst,male,1933
+1992,chemistry,Rudolph A.,Marcus,male,1923
+1993,chemistry,Kary B.,Mullis,male,1944
+1993,chemistry,Michael,Smith,male,1932
+1994,chemistry,George A.,Olah,male,1927
+1995,chemistry,Paul J.,Crutzen,male,1933
+1995,chemistry,Mario J.,Molina,male,1943
+1995,chemistry,F. Sherwood,Rowland,male,1927
+1996,chemistry,Robert F.,Curl Jr.,male,1933
+1996,chemistry,Sir Harold W.,Kroto,male,1939
+1996,chemistry,Richard E.,Smalley,male,1943
+1997,chemistry,Paul D.,Boyer,male,1918
+1997,chemistry,John E.,Walker,male,1941
+1997,chemistry,Jens C.,Skou,male,1918
+1998,chemistry,Walter,Kohn,male,1923
+1998,chemistry,John A.,Pople,male,1925
+1999,chemistry,Ahmed H.,Zewail,male,1946
+1901,medicine,Emil Adolf,von Behring,male,1854
+1902,medicine,Ronald,Ross,male,1857
+1903,medicine,Niels Ryberg,Finsen,male,1860
+1904,medicine,Ivan Petrovich,Pavlov,male,1849
+1905,medicine,Robert,Koch,male,1843
+1906,medicine,Camillo,Golgi,male,1843
+1906,medicine,Santiago,Ramón y Cajal,male,1852
+1907,medicine,Charles Louis Alphonse,Laveran,male,1845
+1908,medicine,Ilya Ilyich,Mechnikov,male,1845
+1908,medicine,Paul,Ehrlich,male,1854
+1909,medicine,Emil Theodor,Kocher,male,1841
+1910,medicine,Albrecht,Kossel,male,1853
+1911,medicine,Allvar,Gullstrand,male,1862
+1912,medicine,Alexis,Carrel,male,1873
+1913,medicine,Charles Robert,Richet,male,1850
+1914,medicine,Robert,Bárány,male,1876
+1919,medicine,Jules,Bordet,male,1870
+1920,medicine,Schack August Steenberg,Krogh,male,1874
+1922,medicine,Archibald Vivian,Hill,male,1886
+1922,medicine,Otto Fritz,Meyerhof,male,1884
+1923,medicine,Frederick Grant,Banting,male,1891
+1923,medicine,John James Rickard,Macleod,male,1876
+1924,medicine,Willem,Einthoven,male,1860
+1926,medicine,Johannes Andreas Grib,Fibiger,male,1867
+1927,medicine,Julius,Wagner-Jauregg,male,1857
+1928,medicine,Charles Jules Henri,Nicolle,male,1866
+1929,medicine,Christiaan,Eijkman,male,1858
+1929,medicine,Sir Frederick Gowland,Hopkins,male,1861
+1930,medicine,Karl,Landsteiner,male,1868
+1931,medicine,Otto Heinrich,Warburg,male,1883
+1932,medicine,Sir Charles Scott,Sherrington,male,1857
+1932,medicine,Edgar Douglas,Adrian,male,1889
+1933,medicine,Thomas Hunt,Morgan,male,1866
+1934,medicine,George Hoyt,Whipple,male,1878
+1934,medicine,George Richards,Minot,male,1885
+1934,medicine,William Parry,Murphy,male,1892
+1935,medicine,Hans,Spemann,male,1869
+1936,medicine,Sir Henry Hallett,Dale,male,1875
+1936,medicine,Otto,Loewi,male,1873
+1937,medicine,Albert,von Szent-Györgyi Nagyrápolt,male,1893
+1938,medicine,Corneille Jean François,Heymans,male,1892
+1939,medicine,Gerhard,Domagk,male,1895
+1943,medicine,Henrik Carl Peter,Dam,male,1895
+1943,medicine,Edward Adelbert,Doisy,male,1893
+1944,medicine,Joseph,Erlanger,male,1874
+1944,medicine,Herbert Spencer,Gasser,male,1888
+1945,medicine,Sir Alexander,Fleming,male,1881
+1945,medicine,Ernst Boris,Chain,male,1906
+1945,medicine,Sir Howard Walter,Florey,male,1898
+1946,medicine,Hermann Joseph,Muller,male,1890
+1947,medicine,Carl Ferdinand,Cori,male,1896
+1947,medicine,Gerty Theresa,Cori née Radnitz,female,1896
+1947,medicine,Bernardo Alberto,Houssay,male,1887
+1948,medicine,Paul Hermann,Müller,male,1899
+1949,medicine,Walter Rudolf,Hess,male,1881
+1949,medicine,Antonio Caetano de Abreu Freire Egas,Moniz,male,1874
+1950,medicine,Edward Calvin,Kendall,male,1886
+1950,medicine,Tadeus,Reichstein,male,1897
+1950,medicine,Philip Showalter,Hench,male,1896
+1951,medicine,Max,Theiler,male,1899
+1952,medicine,Selman Abraham,Waksman,male,1888
+1953,medicine,Hans Adolf,Krebs,male,1900
+1953,medicine,Fritz Albert,Lipmann,male,1899
+1954,medicine,John Franklin,Enders,male,1897
+1954,medicine,Thomas Huckle,Weller,male,1915
+1954,medicine,Frederick Chapman,Robbins,male,1916
+1955,medicine,Axel Hugo Theodor,Theorell,male,1903
+1956,medicine,André Frédéric,Cournand,male,1895
+1956,medicine,Werner,Forssmann,male,1904
+1956,medicine,Dickinson W.,Richards,male,1895
+1957,medicine,Daniel,Bovet,male,1907
+1958,medicine,George Wells,Beadle,male,1903
+1958,medicine,Edward Lawrie,Tatum,male,1909
+1958,medicine,Joshua,Lederberg,male,1925
+1959,medicine,Severo,Ochoa,male,1905
+1959,medicine,Arthur,Kornberg,male,1918
+1960,medicine,Sir Frank Macfarlane,Burnet,male,1899
+1960,medicine,Peter Brian,Medawar,male,1915
+1961,medicine,Georg,von Békésy,male,1899
+1962,medicine,Francis Harry Compton,Crick,male,1916
+1962,medicine,James Dewey,Watson,male,1928
+1962,medicine,Maurice Hugh Frederick,Wilkins,male,1916
+1963,medicine,Sir John Carew,Eccles,male,1903
+1963,medicine,Alan Lloyd,Hodgkin,male,1914
+1963,medicine,Andrew Fielding,Huxley,male,1917
+1964,medicine,Konrad,Bloch,male,1912
+1964,medicine,Feodor,Lynen,male,1911
+1965,medicine,François,Jacob,male,1920
+1965,medicine,André,Lwoff,male,1902
+1965,medicine,Jacques,Monod,male,1910
+1966,medicine,Peyton,Rous,male,1879
+1966,medicine,Charles Brenton,Huggins,male,1901
+1967,medicine,Ragnar,Granit,male,1900
+1967,medicine,Haldan Keffer,Hartline,male,1903
+1967,medicine,George,Wald,male,1906
+1968,medicine,Robert W.,Holley,male,1922
+1968,medicine,Har Gobind,Khorana,male,1922
+1968,medicine,Marshall W.,Nirenberg,male,1927
+1969,medicine,Max,Delbrück,male,1906
+1969,medicine,Alfred D.,Hershey,male,1908
+1969,medicine,Salvador E.,Luria,male,1912
+1970,medicine,Sir Bernard,Katz,male,1911
+1970,medicine,Ulf,von Euler,male,1905
+1970,medicine,Julius,Axelrod,male,1912
+1971,medicine,Earl W.,Sutherland Jr.,male,1915
+1972,medicine,Gerald M.,Edelman,male,1929
+1972,medicine,Rodney R.,Porter,male,1917
+1973,medicine,Karl,von Frisch,male,1886
+1973,medicine,Konrad,Lorenz,male,1903
+1973,medicine,Nikolaas,Tinbergen,male,1907
+1974,medicine,Albert,Claude,male,1898
+1974,medicine,Christian,de Duve,male,1917
+1974,medicine,George E.,Palade,male,1912
+1975,medicine,David,Baltimore,male,1938
+1975,medicine,Renato,Dulbecco,male,1914
+1975,medicine,Howard Martin,Temin,male,1934
+1976,medicine,Baruch S.,Blumberg,male,1925
+1976,medicine,D. Carleton,Gajdusek,male,1923
+1977,medicine,Roger,Guillemin,male,1924
+1977,medicine,Andrew V.,Schally,male,1926
+1977,medicine,Rosalyn,Yalow,female,1921
+1978,medicine,Werner,Arber,male,1929
+1978,medicine,Daniel,Nathans,male,1928
+1978,medicine,Hamilton O.,Smith,male,1931
+1979,medicine,Allan M.,Cormack,male,1924
+1979,medicine,Godfrey N.,Hounsfield,male,1919
+1980,medicine,Baruj,Benacerraf,male,1920
+1980,medicine,Jean,Dausset,male,1916
+1980,medicine,George D.,Snell,male,1903
+1981,medicine,Roger W.,Sperry,male,1913
+1981,medicine,David H.,Hubel,male,1926
+1981,medicine,Torsten N.,Wiesel,male,1924
+1982,medicine,Sune K.,Bergström,male,1916
+1982,medicine,Bengt I.,Samuelsson,male,1934
+1982,medicine,John R.,Vane,male,1927
+1983,medicine,Barbara,McClintock,female,1902
+1984,medicine,Niels K.,Jerne,male,1911
+1984,medicine,Georges J.F.,Köhler,male,1946
+1984,medicine,César,Milstein,male,1927
+1985,medicine,Michael S.,Brown,male,1941
+1985,medicine,Joseph L.,Goldstein,male,1940
+1986,medicine,Stanley,Cohen,male,1922
+1986,medicine,Rita,Levi-Montalcini,female,1909
+1987,medicine,Susumu,Tonegawa,male,1939
+1988,medicine,Sir James W.,Black,male,1924
+1988,medicine,Gertrude B.,Elion,female,1918
+1988,medicine,George H.,Hitchings,male,1905
+1989,medicine,J. Michael,Bishop,male,1936
+1989,medicine,Harold E.,Varmus,male,1939
+1990,medicine,Joseph E.,Murray,male,1919
+1990,medicine,E. Donnall,Thomas,male,1920
+1991,medicine,Erwin,Neher,male,1944
+1991,medicine,Bert,Sakmann,male,1942
+1992,medicine,Edmond H.,Fischer,male,1920
+1992,medicine,Edwin G.,Krebs,male,1918
+1993,medicine,Richard J.,Roberts,male,1943
+1993,medicine,Phillip A.,Sharp,male,1944
+1994,medicine,Alfred G.,Gilman,male,1941
+1994,medicine,Martin,Rodbell,male,1925
+1995,medicine,Edward B.,Lewis,male,1918
+1995,medicine,Christiane,Nüsslein-Volhard,female,1942
+1995,medicine,Eric F.,Wieschaus,male,1947
+1996,medicine,Peter C.,Doherty,male,1940
+1996,medicine,Rolf M.,Zinkernagel,male,1944
+1997,medicine,Stanley B.,Prusiner,male,1942
+1998,medicine,Robert F.,Furchgott,male,1916
+1998,medicine,Louis J.,Ignarro,male,1941
+1998,medicine,Ferid,Murad,male,1936
+1999,medicine,Günter,Blobel,male,1936
+1901,peace,Jean Henry,Dunant,male,1828
+1901,peace,Frédéric,Passy,male,1822
+1902,peace,Élie,Ducommun,male,1833
+1902,peace,Charles Albert,Gobat,male,1843
+1903,peace,William Randal,Cremer,male,1828
+1905,peace,Baroness Bertha Sophie Felicita,von Suttner née Countess Kinsky von Chinic und Tettau,female,1843
+1906,peace,Theodore,Roosevelt,male,1858
+1907,peace,Ernesto Teodoro,Moneta,male,1833
+1907,peace,Louis,Renault,male,1843
+1908,peace,Klas Pontus,Arnoldson,male,1844
+1908,peace,Fredrik,Bajer,male,1837
+1909,peace,Auguste Marie François,Beernaert,male,1829
+1909,peace,Paul Henri Benjamin Balluet,d'Estournelles de Constant Baron de Constant de Rebecque,male,1852
+1911,peace,Tobias Michael Carel,Asser,male,1838
+1911,peace,Alfred Hermann,Fried,male,1864
+1912,peace,Elihu,Root,male,1845
+1913,peace,Henri,La Fontaine,male,1854
+1919,peace,Thomas Woodrow,Wilson,male,1856
+1920,peace,Léon Victor Auguste,Bourgeois,male,1851
+1921,peace,Karl Hjalmar,Branting,male,1860
+1921,peace,Christian Lous,Lange,male,1869
+1922,peace,Fridtjof,Nansen,male,1861
+1925,peace,Sir Austen,Chamberlain,male,1863
+1925,peace,Charles Gates,Dawes,male,1865
+1926,peace,Aristide,Briand,male,1862
+1926,peace,Gustav,Stresemann,male,1878
+1927,peace,Ferdinand,Buisson,male,1841
+1927,peace,Ludwig,Quidde,male,1858
+1929,peace,Frank Billings,Kellogg,male,1856
+1930,peace,Lars Olof Jonathan (Nathan),Söderblom,male,1866
+1931,peace,Jane,Addams,female,1860
+1931,peace,Nicholas Murray,Butler,male,1862
+1933,peace,Sir Norman,Angell (Ralph Lane),male,1872
+1934,peace,Arthur,Henderson,male,1863
+1935,peace,Carl,von Ossietzky,male,1889
+1936,peace,Carlos,Saavedra Lamas,male,1878
+1937,peace,Cecil of Chelwood Viscount,(Lord Edgar Algernon Robert Gascoyne Cecil),male,1864
+1945,peace,Cordell,Hull,male,1871
+1946,peace,Emily Greene,Balch,female,1867
+1946,peace,John Raleigh,Mott,male,1865
+1949,peace,Lord (John),Boyd Orr of Brechin,male,1880
+1950,peace,Ralph,Bunche,male,1904
+1951,peace,Léon,Jouhaux,male,1879
+1952,peace,Albert,Schweitzer,male,1875
+1953,peace,George Catlett,Marshall,male,1880
+1957,peace,Lester Bowles,Pearson,male,1897
+1958,peace,Georges,Pire,male,1910
+1959,peace,Philip J.,Noel-Baker,male,1889
+1961,peace,Dag Hjalmar Agne Carl,Hammarskjöld,male,1905
+1964,peace,Martin Luther,King Jr.,male,1929
+1968,peace,René,Cassin,male,1887
+1970,peace,Norman E.,Borlaug,male,1914
+1971,peace,Willy,Brandt,male,1913
+1973,peace,Henry A.,Kissinger,male,1923
+1974,peace,Seán,MacBride,male,1904
+1974,peace,Eisaku,Sato,male,1901
+1975,peace,Andrei Dmitrievich,Sakharov,male,1921
+1976,peace,Betty,Williams,female,1943
+1976,peace,Mairead,Corrigan,female,1944
+1978,peace,Mohamed Anwar,al-Sadat,male,1918
+1978,peace,Menachem,Begin,male,1913
+1980,peace,Adolfo,Pérez Esquivel,male,1931
+1982,peace,Alva,Myrdal,female,1902
+1982,peace,Alfonso,García Robles,male,1911
+1983,peace,Lech,Walesa,male,1943
+1984,peace,Desmond Mpilo,Tutu,male,1931
+1986,peace,Elie,Wiesel,male,1928
+1987,peace,Oscar,Arias Sánchez,male,1941
+1990,peace,Mikhail Sergeyevich,Gorbachev,male,1931
+1992,peace,Rigoberta,Menchú Tum,female,1959
+1993,peace,Nelson,Mandela,male,1918
+1993,peace,Frederik Willem,de Klerk,male,1936
+1994,peace,Yasser,Arafat,male,1929
+1994,peace,Shimon,Peres,male,1923
+1994,peace,Yitzhak,Rabin,male,1922
+1995,peace,Joseph,Rotblat,male,1908
+1996,peace,Carlos Filipe Ximenes,Belo,male,1948
+1996,peace,José,Ramos-Horta,male,1949
+1997,peace,Jody,Williams,female,1950
+1998,peace,John,Hume,male,1937
+1998,peace,David,Trimble,male,1944
+1901,literature,Sully,Prudhomme,male,1839
+1902,literature,Christian Matthias Theodor,Mommsen,male,1817
+1903,literature,Bjørnstjerne Martinus,Bjørnson,male,1832
+1904,literature,Frédéric,Mistral,male,1830
+1904,literature,José,Echegaray y Eizaguirre,male,1832
+1905,literature,Henryk,Sienkiewicz,male,1846
+1906,literature,Giosuè,Carducci,male,1835
+1907,literature,Rudyard,Kipling,male,1865
+1908,literature,Rudolf Christoph,Eucken,male,1846
+1909,literature,Selma Ottilia Lovisa,Lagerlöf,female,1858
+1910,literature,Paul Johann Ludwig,Heyse,male,1830
+1911,literature,Count Maurice (Mooris) Polidore Marie Bernhard,Maeterlinck,male,1862
+1912,literature,Gerhart Johann Robert,Hauptmann,male,1862
+1913,literature,Rabindranath,Tagore,male,1861
+1915,literature,Romain,Rolland,male,1866
+1916,literature,Carl Gustaf Verner,von Heidenstam,male,1859
+1917,literature,Karl Adolph,Gjellerup,male,1857
+1917,literature,Henrik,Pontoppidan,male,1857
+1919,literature,Carl Friedrich Georg,Spitteler,male,1845
+1920,literature,Knut Pedersen,Hamsun,male,1859
+1921,literature,Anatole,France,male,1844
+1922,literature,Jacinto,Benavente,male,1866
+1923,literature,William Butler,Yeats,male,1865
+1924,literature,Wladyslaw Stanislaw,Reymont,male,1867
+1925,literature,George Bernard,Shaw,male,1856
+1926,literature,Grazia,Deledda,female,1871
+1927,literature,Henri,Bergson,male,1859
+1928,literature,Sigrid,Undset,female,1882
+1929,literature,Thomas,Mann,male,1875
+1930,literature,Sinclair,Lewis,male,1885
+1931,literature,Erik Axel,Karlfeldt,male,1864
+1932,literature,John,Galsworthy,male,1867
+1933,literature,Ivan Alekseyevich,Bunin,male,1870
+1934,literature,Luigi,Pirandello,male,1867
+1936,literature,Eugene Gladstone,O'Neill,male,1888
+1937,literature,Roger,Martin du Gard,male,1881
+1938,literature,Pearl,Buck,female,1892
+1939,literature,Frans Eemil,Sillanpää,male,1888
+1944,literature,Johannes Vilhelm,Jensen,male,1873
+1945,literature,Gabriela,Mistral,female,1889
+1946,literature,Hermann,Hesse,male,1877
+1947,literature,André Paul Guillaume,Gide,male,1869
+1948,literature,Thomas Stearns,Eliot,male,1888
+1949,literature,William,Faulkner,male,1897
+1950,literature,Earl (Bertrand Arthur William),Russell,male,1872
+1951,literature,Pär Fabian,Lagerkvist,male,1891
+1952,literature,François,Mauriac,male,1885
+1953,literature,Sir Winston Leonard Spencer,Churchill,male,1874
+1954,literature,Ernest Miller,Hemingway,male,1899
+1955,literature,Halldór Kiljan,Laxness,male,1902
+1956,literature,Juan Ramón,Jiménez,male,1881
+1957,literature,Albert,Camus,male,1913
+1958,literature,Boris Leonidovich,Pasternak,male,1890
+1959,literature,Salvatore,Quasimodo,male,1901
+1960,literature,Saint-John,Perse,male,1887
+1961,literature,Ivo,Andric,male,1892
+1962,literature,John,Steinbeck,male,1902
+1963,literature,Giorgos,Seferis,male,1900
+1964,literature,Jean-Paul,Sartre,male,1905
+1965,literature,Mikhail Aleksandrovich,Sholokhov,male,1905
+1966,literature,Shmuel Yosef,Agnon,male,1888
+1966,literature,Nelly,Sachs,female,1891
+1967,literature,Miguel Angel,Asturias,male,1899
+1968,literature,Yasunari,Kawabata,male,1899
+1969,literature,Samuel,Beckett,male,1906
+1970,literature,Aleksandr Isayevich,Solzhenitsyn,male,1918
+1971,literature,Pablo,Neruda,male,1904
+1972,literature,Heinrich,Böll,male,1917
+1973,literature,Patrick,White,male,1912
+1974,literature,Eyvind,Johnson,male,1900
+1974,literature,Harry,Martinson,male,1904
+1975,literature,Eugenio,Montale,male,1896
+1976,literature,Saul,Bellow,male,1915
+1977,literature,Vicente,Aleixandre,male,1898
+1978,literature,Isaac Bashevis,Singer,male,1904
+1979,literature,Odysseus,Elytis,male,1911
+1980,literature,Czeslaw,Milosz,male,1911
+1981,literature,Elias,Canetti,male,1905
+1982,literature,Gabriel,García Márquez,male,1927
+1983,literature,William,Golding,male,1911
+1984,literature,Jaroslav,Seifert,male,1901
+1985,literature,Claude,Simon,male,1913
+1986,literature,Wole,Soyinka,male,1934
+1987,literature,Joseph,Brodsky,male,1940
+1988,literature,Naguib,Mahfouz,male,1911
+1989,literature,Camilo José,Cela,male,1916
+1990,literature,Octavio,Paz,male,1914
+1991,literature,Nadine,Gordimer,female,1923
+1992,literature,Derek,Walcott,male,1930
+1993,literature,Toni,Morrison,female,1931
+1994,literature,Kenzaburo,Oe,male,1935
+1995,literature,Seamus,Heaney,male,1939
+1996,literature,Wislawa,Szymborska,female,1923
+1997,literature,Dario,Fo,male,1926
+1998,literature,José,Saramago,male,1922
+1999,literature,Günter,Grass,male,1927
+1969,economics,Ragnar,Frisch,male,1895
+1969,economics,Jan,Tinbergen,male,1903
+1970,economics,Paul A.,Samuelson,male,1915
+1971,economics,Simon,Kuznets,male,1901
+1972,economics,John R.,Hicks,male,1904
+1972,economics,Kenneth J.,Arrow,male,1921
+1973,economics,Wassily,Leontief,male,1906
+1974,economics,Gunnar,Myrdal,male,1898
+1974,economics,Friedrich August,von Hayek,male,1899
+1975,economics,Leonid Vitaliyevich,Kantorovich,male,1912
+1975,economics,Tjalling C.,Koopmans,male,1910
+1976,economics,Milton,Friedman,male,1912
+1977,economics,Bertil,Ohlin,male,1899
+1977,economics,James E.,Meade,male,1907
+1978,economics,Herbert A.,Simon,male,1916
+1979,economics,Theodore W.,Schultz,male,1902
+1979,economics,Sir Arthur,Lewis,male,1915
+1980,economics,Lawrence R.,Klein,male,1920
+1981,economics,James,Tobin,male,1918
+1982,economics,George J.,Stigler,male,1911
+1983,economics,Gerard,Debreu,male,1921
+1984,economics,Richard,Stone,male,1913
+1985,economics,Franco,Modigliani,male,1918
+1986,economics,James M.,Buchanan Jr.,male,1919
+1987,economics,Robert M.,Solow,male,1924
+1988,economics,Maurice,Allais,male,1911
+1989,economics,Trygve,Haavelmo,male,1911
+1990,economics,Harry M.,Markowitz,male,1927
+1990,economics,Merton H.,Miller,male,1923
+1990,economics,William F.,Sharpe,male,1934
+1991,economics,Ronald H.,Coase,male,1910
+1992,economics,Gary S.,Becker,male,1930
+1993,economics,Robert W.,Fogel,male,1927
+1993,economics,Douglass C.,North,male,1920
+1994,economics,John C.,Harsanyi,male,1920
+1994,economics,John F.,Nash Jr.,male,1928
+1994,economics,Reinhard,Selten,male,1930
+1995,economics,Robert E.,Lucas Jr.,male,1937
+1996,economics,James A.,Mirrlees,male,1936
+1996,economics,William,Vickrey,male,1914
+1997,economics,Robert C.,Merton,male,1944
+1997,economics,Myron S.,Scholes,male,1941
+1998,economics,Amartya,Sen,male,1933
+1999,economics,Robert A.,Mundell,male,1932
+1958,physics,Il´ja Mikhailovich,Frank,male,1908
+2000,medicine,Arvid,Carlsson,male,1923
+2000,medicine,Paul,Greengard,male,1925
+2000,medicine,Eric R.,Kandel,male,1929
+2000,peace,Kim,Dae-jung,male,1925
+2000,physics,Zhores I.,Alferov,male,1930
+2000,physics,Herbert,Kroemer,male,1928
+2000,physics,Jack S.,Kilby,male,1923
+2000,chemistry,Alan J.,Heeger,male,1936
+2000,chemistry,Alan G.,MacDiarmid,male,1927
+2000,chemistry,Hideki,Shirakawa,male,1936
+2000,economics,James J.,Heckman,male,1944
+2000,economics,Daniel L.,McFadden,male,1937
+2000,literature,Gao,Xingjian,male,1940
+2001,medicine,Leland H.,Hartwell,male,1939
+2001,medicine,Tim,Hunt,male,1943
+2001,medicine,Sir Paul M.,Nurse,male,1949
+2001,physics,Eric A.,Cornell,male,1961
+2001,physics,Wolfgang,Ketterle,male,1957
+2001,physics,Carl E.,Wieman,male,1951
+2001,chemistry,William S.,Knowles,male,1917
+2001,chemistry,Ryoji,Noyori,male,1938
+2001,chemistry,K. Barry,Sharpless,male,1941
+2001,economics,George A.,Akerlof,male,1940
+2001,economics,Joseph E.,Stiglitz,male,1943
+2001,literature,Sir Vidiadhar Surajprasad,Naipaul,male,1932
+2001,peace,Kofi,Annan,male,1938
+2002,medicine,Sydney,Brenner,male,1927
+2002,medicine,H. Robert,Horvitz,male,1947
+2002,medicine,John E.,Sulston,male,1942
+2002,physics,Raymond,Davis Jr.,male,1914
+2002,physics,Masatoshi,Koshiba,male,1926
+2002,physics,Riccardo,Giacconi,male,1931
+2002,chemistry,John B.,Fenn,male,1917
+2002,chemistry,Koichi,Tanaka,male,1959
+2002,chemistry,Kurt,Wüthrich,male,1938
+2002,economics,Daniel,Kahneman,male,1934
+2002,economics,Vernon L.,Smith,male,1927
+2002,literature,Imre,Kertész,male,1929
+2002,peace,Jimmy,Carter,male,1924
+2003,literature,John M.,Coetzee,male,1940
+2003,medicine,Paul C.,Lauterbur,male,1929
+2003,medicine,Sir Peter,Mansfield,male,1933
+2003,physics,Alexei A.,Abrikosov,male,1928
+2003,physics,Vitaly L.,Ginzburg,male,1916
+2003,physics,Anthony J.,Leggett,male,1938
+2003,chemistry,Peter,Agre,male,1949
+2003,chemistry,Roderick,MacKinnon,male,1956
+2003,economics,Robert F.,Engle III,male,1942
+2003,economics,Clive W.J.,Granger,male,1934
+2003,peace,Shirin,Ebadi,female,1947
+2004,medicine,Richard,Axel,male,1946
+2004,medicine,Linda B.,Buck,female,1947
+2004,physics,David J.,Gross,male,1941
+2004,physics,H. David,Politzer,male,1949
+2004,physics,Frank,Wilczek,male,1951
+2004,chemistry,Aaron,Ciechanover,male,1947
+2004,chemistry,Avram,Hershko,male,1937
+2004,chemistry,Irwin,Rose,male,1926
+2004,literature,Elfriede,Jelinek,female,1946
+2004,peace,Wangari Muta,Maathai,female,1940
+2004,economics,Finn E.,Kydland,male,1943
+2004,economics,Edward C.,Prescott,male,1940
+2005,medicine,Barry J.,Marshall,male,1951
+2005,medicine,J. Robin,Warren,male,1937
+2005,physics,Roy J.,Glauber,male,1925
+2005,physics,John L.,Hall,male,1934
+2005,physics,Theodor W.,Hänsch,male,1941
+2005,chemistry,Yves,Chauvin,male,1930
+2005,chemistry,Robert H.,Grubbs,male,1942
+2005,chemistry,Richard R.,Schrock,male,1945
+2005,peace,Mohamed,ElBaradei,male,1942
+2005,economics,Robert J.,Aumann,male,1930
+2005,economics,Thomas C.,Schelling,male,1921
+2005,literature,Harold,Pinter,male,1930
+2006,medicine,Andrew Z.,Fire,male,1959
+2006,medicine,Craig C.,Mello,male,1960
+2006,physics,John C.,Mather,male,1946
+2006,physics,George F.,Smoot,male,1945
+2006,chemistry,Roger D.,Kornberg,male,1947
+2006,economics,Edmund S.,Phelps,male,1933
+2006,literature,Orhan,Pamuk,male,1952
+2006,peace,Muhammad,Yunus,male,1940
+2007,medicine,Mario R.,Capecchi,male,1937
+2007,medicine,Sir Martin J.,Evans,male,1941
+2007,medicine,Oliver,Smithies,male,1925
+2007,physics,Albert,Fert,male,1938
+2007,physics,Peter,Grünberg,male,1939
+2007,chemistry,Gerhard,Ertl,male,1936
+2007,literature,Doris,Lessing,female,1919
+2007,peace,Albert Arnold (Al),Gore Jr.,male,1948
+2007,economics,Leonid,Hurwicz,male,1917
+2007,economics,Eric S.,Maskin,male,1950
+2007,economics,Roger B.,Myerson,male,1951
+2008,medicine,Harald,zur Hausen,male,1936
+2008,medicine,Françoise,Barré-Sinoussi,female,1947
+2008,medicine,Luc,Montagnier,male,1932
+2008,physics,Yoichiro,Nambu,male,1921
+2008,physics,Makoto,Kobayashi,male,1944
+2008,physics,Toshihide,Maskawa,male,1940
+2008,chemistry,Osamu,Shimomura,male,1928
+2008,chemistry,Martin,Chalfie,male,1947
+2008,chemistry,Roger Y.,Tsien,male,1952
+2008,literature,Jean-Marie Gustave,Le Clézio,male,1940
+2008,peace,Martti,Ahtisaari,male,1937
+2008,economics,Paul,Krugman,male,1953
+2009,medicine,Elizabeth H.,Blackburn,female,1948
+2009,medicine,Carol W.,Greider,female,1961
+2009,medicine,Jack W.,Szostak,male,1952
+2009,physics,Charles Kuen,Kao,male,1933
+2009,physics,Willard S.,Boyle,male,1924
+2009,physics,George E.,Smith,male,1930
+2009,chemistry,Thomas A.,Steitz,male,1940
+2009,chemistry,Ada E.,Yonath,female,1939
+2009,literature,Herta,Müller,female,1953
+2009,peace,Barack H.,Obama,male,1961
+2009,economics,Elinor,Ostrom,female,1933
+2009,economics,Oliver E.,Williamson,male,1932
+2010,medicine,Robert G.,Edwards,male,1925
+2010,physics,Andre,Geim,male,1958
+2010,physics,Konstantin,Novoselov,male,1974
+2010,chemistry,Richard F.,Heck,male,1931
+2010,chemistry,Ei-ichi,Negishi,male,1935
+2010,chemistry,Akira,Suzuki,male,1930
+2010,literature,Mario,Vargas Llosa,male,1936
+2010,peace,Liu,Xiaobo,male,1955
+2010,economics,Peter A.,Diamond,male,1940
+2010,economics,Dale T.,Mortensen,male,1939
+2010,economics,Christopher A.,Pissarides,male,1948
+2011,medicine,Bruce A.,Beutler,male,1957
+2011,medicine,Jules A.,Hoffmann,male,1941
+2011,medicine,Ralph M.,Steinman,male,1943
+2011,physics,Brian P.,Schmidt,male,1967
+2011,physics,Adam G.,Riess,male,1969
+2011,chemistry,Dan,Shechtman,male,1941
+2011,literature,Tomas,Tranströmer,male,1931
+2011,peace,Ellen,Johnson Sirleaf,female,1938
+2011,peace,Leymah,Gbowee,female,1972
+2011,peace,Tawakkol,Karman,female,1979
+2011,economics,Thomas J.,Sargent,male,1943
+2011,economics,Christopher A.,Sims,male,1942
+2012,medicine,Sir John B.,Gurdon,male,1933
+2012,medicine,Shinya,Yamanaka,male,1962
+2012,physics,Serge,Haroche,male,1944
+2012,physics,David J.,Wineland,male,1944
+2012,chemistry,Robert J.,Lefkowitz,male,1943
+2012,chemistry,Brian K.,Kobilka,male,1955
+2012,literature,Mo,Yan,male,1955
+2012,economics,Alvin E.,Roth,male,1951
+2012,economics,Lloyd S.,Shapley,male,1923
+2013,medicine,James E.,Rothman,male,1950
+2013,medicine,Randy W.,Schekman,male,1948
+2013,medicine,Thomas C.,Südhof,male,1955
+2013,physics,François,Englert,male,1932
+2013,physics,Peter W.,Higgs,male,1929
+2013,chemistry,Martin,Karplus,male,1930
+2013,chemistry,Michael,Levitt,male,1947
+2013,chemistry,Arieh,Warshel,male,1940
+2013,literature,Alice,Munro,female,1931
+2013,economics,Eugene F.,Fama,male,1939
+2013,economics,Lars Peter,Hansen,male,1952
+2013,economics,Robert J.,Shiller,male,1946
+2014,medicine,John,O'Keefe,male,1939
+2014,medicine,May-Britt,Moser,female,1963
+2014,medicine,Edvard I.,Moser,male,1962
+2014,physics,Isamu,Akasaki,male,1929
+2014,physics,Hiroshi,Amano,male,1960
+2014,physics,Shuji,Nakamura,male,1954
+2014,chemistry,Eric,Betzig,male,1960
+2014,chemistry,Stefan W.,Hell,male,1962
+2014,chemistry,William E.,Moerner,male,1953
+2014,literature,Patrick,Modiano,male,1945
+2014,peace,Kailash,Satyarthi,male,1954
+2014,peace,Malala,Yousafzai,female,1997
+2014,economics,Jean,Tirole,male,1953
+2015,medicine,William C.,Campbell,male,1930
+2015,medicine,Satoshi,Ōmura,male,1935
+2015,medicine,Youyou,Tu,female,1930
+2015,physics,Takaaki,Kajita,male,1959
+2015,physics,Arthur B.,McDonald,male,1943
+2015,chemistry,Tomas,Lindahl,male,1938
+2015,chemistry,Paul,Modrich,male,1946
+2015,chemistry,Aziz,Sancar,male,1946
+2015,literature,Svetlana,Alexievich,female,1948
+2015,economics,Angus,Deaton,male,1945
+2016,medicine,Yoshinori,Ohsumi,male,1945
+2016,physics,David J.,Thouless,male,1934
+2016,physics,F. Duncan M.,Haldane,male,1951
+2016,physics,J. Michael,Kosterlitz,male,1943
+2016,chemistry,Jean-Pierre,Sauvage,male,1944
+2016,chemistry,Sir J. Fraser,Stoddart,male,1942
+2016,chemistry,Bernard L.,Feringa,male,1951
+2016,peace,Juan Manuel,Santos,male,1951
+2016,economics,Oliver,Hart,male,1948
+2016,economics,Bengt,Holmström,male,1949
+2016,literature,Bob,Dylan,male,1941
+2017,medicine,Jeffrey C.,Hall,male,1945
+2017,medicine,Michael,Rosbash,male,1944
+2017,medicine,Michael W.,Young,male,1949
+2017,physics,Rainer,Weiss,male,1932
+2017,physics,Barry C.,Barish,male,1936
+2017,physics,Kip S.,Thorne,male,1940
+2017,chemistry,Jacques,Dubochet,male,1942
+2017,chemistry,Joachim,Frank,male,1940
+2017,chemistry,Richard,Henderson,male,1945
+2017,literature,Kazuo,Ishiguro,male,1954
+2017,economics,Richard H.,Thaler,male,1945
+2018,medicine,James P.,Allison,male,1948
+2018,medicine,Tasuku,Honjo,male,1942
+2018,physics,Arthur,Ashkin,male,1922
+2018,physics,Gérard,Mourou,male,1944
+2018,chemistry,Frances H.,Arnold,female,1956
+2018,chemistry,Sir Gregory P.,Winter,male,1951
